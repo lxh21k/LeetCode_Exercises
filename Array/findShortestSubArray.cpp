@@ -4,6 +4,7 @@
 using namespace std;
 
 class Solution {
+public:
     int findShortestSubArray(vector<int>& nums) {
         unordered_map<int, vector<int>> mp;
         int n = nums.size();
